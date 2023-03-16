@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    background-image: url("assets/paper.png");
+    text-align: center;
+}
+
+h1 {
+    font-size: 2cm;
+    font-style: oblique;
+    text-align: center;
+}
+
+
+.blueback {
+    background-image: url(assets/blue.png);
+    text-align: center;
+    position: absolute;
+    width: 690px; 
+    height: 599px; 
+    object-fit: cover; 
+    object-position: 50% 50%;
+    color: aliceblue;
+    padding: 100px;
+}
+
+.static {
+    position: static;
+    max-width: 1420px;
+    max-height: 2000px;
+}
